@@ -1,0 +1,14 @@
+.menu{
+    width: 60%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    line-height: 40px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-weight:bolder;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./navbar/home";
+import Categories from "./navbar/categories";
+import Store from "./navbar/store";
+import MyStuff from "./navbar/myStuff";
+import ToggleButton from "./examples/toggle";
+import DropdownToggle from "./examples/dropdown";
+import Collection from "./navbar/collection";
+import CollectionMenu from './pages/menu';
+import Traffic from "./examples/traffic";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+
+      <div className="app d-flex row-col" style={{width:'60%',margin:'auto'}}>
+        {/* <Home/>
+        <Collection/>
+        <Categories/>
+        <Store/>
+        <MyStuff/> */}
+      </div>
+      {/* <CollectionMenu/> */}
+      {/* <ToggleButton/>
+      <DropdownToggle/>       */}
+      <Traffic/>
+  
     </div>
   );
 }

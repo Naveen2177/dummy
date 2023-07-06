@@ -1,0 +1,7 @@
+.store li{
+    list-style: none;
+}
+.store li a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,7 @@
+.home li{
+    list-style: none;
+}
+.home li a{
+    text-decoration: none;
+    color: black;
+}

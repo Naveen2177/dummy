@@ -1,0 +1,7 @@
+.stuff li{
+    list-style: none;
+}
+.stuff li a{
+    text-decoration: none;
+    color: black;
+}
